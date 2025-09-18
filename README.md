@@ -1,16 +1,42 @@
-# smart_ahwa_manager
+ # ☕ Smart Ahwa Manager (مدير القهوة الذكية)
 
-A new Flutter project.
+## 📌 Description
+A demo application built with **Flutter** to manage customer orders in a traditional Cairo coffee shop (Ahwa).  
+The app allows the owner to add orders with customer name, drink type (e.g., Shai, Turkish coffee, Hibiscus tea), and special instructions (e.g., “extra mint”).  
+Orders can be marked as completed, pending orders can be viewed in a simple UI, and sales reports can be generated in the console.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠️ Features
+- Add a new order with customer name + drink type + special notes.
+- Mark orders as **completed** ✅.
+- Display pending orders in the main screen.
+- Generate reports in the **console**:
+  - Sales report by drink type.
+  - Total number of orders.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Project Structure
+- `models/order.dart` → Represents the order object (**Encapsulation**).
+- `services/order_manager.dart` → Manages orders (**SRP**).
+- `services/report_generator.dart` → Generates reports (**SRP + OCP**).
+- `screens/home_screen.dart` → Flutter UI for displaying orders.
+- `main.dart` → Entry point for the UI version.
+- `main_console.dart` → Entry point for console testing & reports.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🎯 OOP & SOLID Principles Applied
+- **Encapsulation**: Order data and behaviors are grouped inside the `Order` class.  
+- **Abstraction**: Logic (Manager, Reports) is separated from UI.  
+- **SRP (Single Responsibility Principle)**: Each class has a single, clear responsibility.  
+- **OCP (Open/Closed Principle)**: Code is open for extension (e.g., new reports, new drinks) but closed for modification of existing classes.  
+
+---
+
+## 📸 Screenshots
+ 
+<img width="1005" height="245" alt="6" src="https://github.com/user-attachments/assets/1a4c90cd-70c4-4c75-b955-ac75d9ade363" />
+
+---
