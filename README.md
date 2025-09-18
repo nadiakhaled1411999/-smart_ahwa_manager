@@ -37,6 +37,6 @@ Orders can be marked as completed, pending orders can be viewed in a simple UI, 
 
 ## 📸 Screenshots
  ### Console Output
-<img width="1005" height="245" alt="6" src="https://github.com/user-attachments/assets/1a4c90cd-70c4-4c75-b955-ac75d9ade363" />
+![Console Output]<img width="1005" height="245" alt="6" src="https://github.com/user-attachments/assets/1a4c90cd-70c4-4c75-b955-ac75d9ade363" />
 
 ---
